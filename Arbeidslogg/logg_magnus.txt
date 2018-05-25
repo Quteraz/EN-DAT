@@ -3,4 +3,13 @@
 5/5/18 : 45min
 	Tok testbilder til modellen
 14/5/18 : 1t 10min
-	skrev på rapporten
+	Skrev på rapporten
+15/5/18 : 1t 50min
+	Mer rapportskriving
+
+19/5/18 : 1t 
+	enda mer rapportskriving
+25/5/18 : 5t
+	Innstalleringer og oppsett av utviklingsmiljø
+15/5/18 : 1t 45min
+	markerte bilder til treningsmodellen
