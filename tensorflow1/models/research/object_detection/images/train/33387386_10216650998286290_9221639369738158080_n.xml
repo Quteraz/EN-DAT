@@ -1,0 +1,26 @@
+<annotation>
+  <folder>b</folder>
+  <filename>33387386_10216650998286290_9221639369738158080_n</filename>
+  <path>C:\Users\Sigurd\Desktop\b\33387386_10216650998286290_9221639369738158080_n.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>612</width>
+    <height>816</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>9</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>99</xmin>
+      <ymin>254</ymin>
+      <xmax>387</xmax>
+      <ymax>634</ymax>
+    </bndbox>
+  </object>
+</annotation>
