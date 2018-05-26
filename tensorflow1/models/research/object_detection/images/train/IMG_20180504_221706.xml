@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>IMG_20180504_221706.jpg</filename>
+	<path>D:\Users\mhauk\Projects\EN-DAT\tensorflow1\models\research\object_detection\images\train\IMG_20180504_221706.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>744</width>
+		<height>992</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>5</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>81</xmin>
+			<ymin>418</ymin>
+			<xmax>646</xmax>
+			<ymax>714</ymax>
+		</bndbox>
+	</object>
+</annotation>
