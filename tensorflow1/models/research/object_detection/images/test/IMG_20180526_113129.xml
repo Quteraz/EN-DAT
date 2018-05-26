@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>IMG_20180526_113129.jpg</filename>
+	<path>D:\Users\mhauk\Projects\EN-DAT\tensorflow1\models\research\object_detection\images\test\IMG_20180526_113129.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>595</width>
+		<height>794</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>jack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>173</xmin>
+			<ymin>249</ymin>
+			<xmax>430</xmax>
+			<ymax>522</ymax>
+		</bndbox>
+	</object>
+</annotation>
