@@ -1,0 +1,26 @@
+<annotation>
+  <folder>b1</folder>
+  <filename>20180526_202406</filename>
+  <path>C:\Users\Sigurd\Desktop\b1\20180526_202406.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>720</width>
+    <height>540</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>4</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>161</xmin>
+      <ymin>103</ymin>
+      <xmax>635</xmax>
+      <ymax>400</ymax>
+    </bndbox>
+  </object>
+</annotation>
