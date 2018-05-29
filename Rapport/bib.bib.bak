@@ -1,4 +1,3 @@
-% Encoding: UTF-8
 @article{tpu_main,
   author    = {Norman P. Jouppi and
                Cliff Young and
@@ -114,25 +113,3 @@
     addendum = "(accessed: 28.05.2018)",
     keywords = "Image,Neural Network,TPU"
 }
-@Book{Bonaccorso2017,
-  author    = {Bonaccorso, Giuseppe},
-  title     = {Machine Learning Algorithms},
-  year      = {2017},
-  date      = {2017-07-25},
-  publisher = {PACKT PUB},
-  isbn      = {1785889621},
-  pagetotal = {360},
-  url       = {https://www.ebook.de/de/product/29863096/giuseppe_bonaccorso_machine_learning_algorithms.html},
-  ean       = {9781785889622},
-}
-
-@MvBook{neural_net,
-  author    = {Michael Nielsen},
-  title     = {Neural Networks and Deep Learning},
-  year      = {2017},
-  date      = {2017-12-02},
-  url       = {http://neuralnetworksanddeeplearning.com/},
-  timestamp = {2018-05-15},
-}
-
-@Comment{jabref-meta: databaseType:biblatex;}
