@@ -8,8 +8,11 @@
 	Mer rapportskriving
 
 19/5/18 : 1t 
-	enda mer rapportskriving
+	Enda mer rapportskriving
 25/5/18 : 5t
 	Innstalleringer og oppsett av utviklingsmiljø
-15/5/18 : 1t 45min
-	markerte bilder til treningsmodellen
+25/5/18 : 1t 45min
+	Markerte bilder til treningsmodellen
+27/5/18 : 3t
+	Prøvde å få testing i gang
+	Skrev på rapporten

@@ -1,0 +1,138 @@
+% Encoding: UTF-8
+@article{tpu_main,
+  author    = {Norman P. Jouppi and
+               Cliff Young and
+               Nishant Patil and
+               David A. Patterson and
+               Gaurav Agrawal and
+               Raminder Bajwa and
+               Sarah Bates and
+               Suresh Bhatia and
+               Nan Boden and
+               Al Borchers and
+               Rick Boyle and
+               Pierre{-}luc Cantin and
+               Clifford Chao and
+               Chris Clark and
+               Jeremy Coriell and
+               Mike Daley and
+               Matt Dau and
+               Jeffrey Dean and
+               Ben Gelb and
+               Tara Vazir Ghaemmaghami and
+               Rajendra Gottipati and
+               William Gulland and
+               Robert Hagmann and
+               Richard C. Ho and
+               Doug Hogberg and
+               John Hu and
+               Robert Hundt and
+               Dan Hurt and
+               Julian Ibarz and
+               Aaron Jaffey and
+               Alek Jaworski and
+               Alexander Kaplan and
+               Harshit Khaitan and
+               Andy Koch and
+               Naveen Kumar and
+               Steve Lacy and
+               James Laudon and
+               James Law and
+               Diemthu Le and
+               Chris Leary and
+               Zhuyuan Liu and
+               Kyle Lucke and
+               Alan Lundin and
+               Gordon MacKean and
+               Adriana Maggiore and
+               Maire Mahony and
+               Kieran Miller and
+               Rahul Nagarajan and
+               Ravi Narayanaswami and
+               Ray Ni and
+               Kathy Nix and
+               Thomas Norrie and
+               Mark Omernick and
+               Narayana Penukonda and
+               Andy Phelps and
+               Jonathan Ross and
+               Amir Salek and
+               Emad Samadiani and
+               Chris Severn and
+               Gregory Sizikov and
+               Matthew Snelham and
+               Jed Souter and
+               Dan Steinberg and
+               Andy Swing and
+               Mercedes Tan and
+               Gregory Thorson and
+               Bo Tian and
+               Horia Toma and
+               Erick Tuttle and
+               Vijay Vasudevan and
+               Richard Walter and
+               Walter Wang and
+               Eric Wilcox and
+               Doe Hyun Yoon},
+  title     = {In-Datacenter Performance Analysis of a Tensor Processing Unit},
+  journal   = {CoRR},
+  volume    = {abs/1704.04760},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1704.04760},
+  archivePrefix = {arXiv},
+  eprint    = {1704.04760},
+  timestamp = {Fri, 04 May 2018 12:24:12 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/JouppiYPPABBBBB17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@online{look_at_TPU,
+    author = "Kaz Sato",
+    title = "An in-depth look at Google’s first Tensor Processing Unit (TPU)",
+    url  = "https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu",
+    addendum = "(accessed: 01.05.2018)",
+    keywords = "TPU,Neural Network"
+}
+
+@online{benchmark,
+    title = "DAWNBench",
+    url  = "http://dawn.cs.stanford.edu/benchmark/ImageNet/train.html",
+    addendum = "(accessed: 28.05.2018)",
+    keywords = "TPU,Neural Network"
+}
+
+@online{image-net,
+    title = "ImageNet",
+    url  = "http://www.image-net.org/index",
+    addendum = "(accessed: 28.05.2018)",
+    keywords = "Image,Neural Network,Open Source"
+}
+
+@online{tpu_video,
+    title = "Effective machine learning using Cloud TPUs (Google I/O '18)",
+    url  = "https://youtu.be/zEOtG-ChmZE",
+    addendum = "(accessed: 28.05.2018)",
+    keywords = "Image,Neural Network,TPU"
+}
+@Book{Bonaccorso2017,
+  author    = {Bonaccorso, Giuseppe},
+  title     = {Machine Learning Algorithms},
+  year      = {2017},
+  date      = {2017-07-25},
+  publisher = {PACKT PUB},
+  isbn      = {1785889621},
+  pagetotal = {360},
+  url       = {https://www.ebook.de/de/product/29863096/giuseppe_bonaccorso_machine_learning_algorithms.html},
+  ean       = {9781785889622},
+}
+
+@MvBook{neural_net,
+  author    = {Michael Nielsen},
+  title     = {Neural Networks and Deep Learning},
+  year      = {2017},
+  date      = {2017-12-02},
+  url       = {http://neuralnetworksanddeeplearning.com/},
+  timestamp = {2018-05-15},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
