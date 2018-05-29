@@ -19,6 +19,36 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
+    \entry{Bonaccorso2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=87f5f5541028f63b43aee540aa5323cb}{%
+           family={Bonaccorso},
+           familyi={B\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PACKT PUB}%
+      }
+      \strng{namehash}{87f5f5541028f63b43aee540aa5323cb}
+      \strng{fullhash}{87f5f5541028f63b43aee540aa5323cb}
+      \strng{authornamehash}{87f5f5541028f63b43aee540aa5323cb}
+      \strng{authorfullhash}{87f5f5541028f63b43aee540aa5323cb}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{isbn}{1785889621}
+      \field{month}{7}
+      \field{pagetotal}{360}
+      \field{title}{Machine Learning Algorithms}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.ebook.de/de/product/29863096/giuseppe_bonaccorso_machine_learning_algorithms.html
+      \endverb
+    \endentry
     \entry{benchmark}{online}{}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -445,6 +475,31 @@
       \verb http://arxiv.org/abs/1704.04760
       \endverb
     \endentry
+    \entry{neural_net}{mvbook}{}
+      \name{author}{1}{}{%
+        {{hash=3b32fb3a134f406f7b5107358d27befe}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{fullhash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authornamehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authorfullhash}{3b32fb3a134f406f7b5107358d27befe}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{month}{12}
+      \field{title}{Neural Networks and Deep Learning}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://neuralnetworksanddeeplearning.com/
+      \endverb
+    \endentry
     \entry{look_at_TPU}{online}{}
       \name{author}{1}{}{%
         {{hash=2e60b06680e302600f7b3b9b6fe1d43e}{%
@@ -469,8 +524,6 @@
       \keyw{TPU,Neural Network}
     \endentry
   \endsortlist
-  \missing{Bonaccorso2017}
-  \missing{neural_net}
 \endrefsection
 \endinput
 

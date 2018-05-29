@@ -233,6 +233,9 @@ INPUT ./images/neuron.png
 INPUT images/neuron_multi.png
 INPUT ./images/neuron_multi.png
 INPUT ./images/neuron_multi.png
+INPUT images/cost_calc.png
+INPUT ./images/cost_calc.png
+INPUT ./images/cost_calc.png
 INPUT d:/texlive/2017/texmf-dist/fonts/tfm/public/stix/t1-stixgeneral-bold.tfm
 INPUT images/tpu_transistor_fordeling.jpg
 INPUT ./images/tpu_transistor_fordeling.jpg

@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber rapport0.6"] 1527624625 "rapport0.6.bcf" "rapport0.6.bbl" "rapport0.6" 1527624628
-  "bib.bib" 1527621975 3915 2d6944a2db3dce9929f078f96e307444 ""
-  "rapport0.6.bcf" 1527624628 96526 0fe898297f9e92a6c640578f2dd8ebf3 ""
+["biber rapport0.6"] 1527624766 "rapport0.6.bcf" "rapport0.6.bbl" "rapport0.6" 1527626111
+  "bib.bib" 1527624760 4624 60d624098c6cf1c3101ded931dd64795 ""
+  "rapport0.6.bcf" 1527626111 96526 0fe898297f9e92a6c640578f2dd8ebf3 ""
   (generated)
   "rapport0.6.bbl"
   "rapport0.6.blg"
-["pdflatex"] 1527624627 "rapport0.6.tex" "rapport0.6.pdf" "rapport0.6" 1527624628
+["pdflatex"] 1527626109 "rapport0.6.tex" "rapport0.6.pdf" "rapport0.6" 1527626111
   "d:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1506526146 2971 def0b6c1f0b107b3b936def894055589 ""
   "d:/texlive/2017/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc" 1506527352 7013 c55cc8669071ac14036c4a0c96c16202 ""
   "d:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1506526447 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -120,20 +120,21 @@
   "d:/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1506527840 4126646 b69502a1cb4434c3f137e04fb5f3de76 ""
   "d:/texlive/2017/texmf.cnf" 1506527752 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "images/MXU.png" 1527619726 26826 067add6ec72b71bb1bab6032f95ab37c ""
+  "images/cost_calc.png" 1527439261 45836 3b2d54d7733f92d9e493de7808474d6a ""
   "images/neuron.png" 1527435179 21493 a1394b51c66c15f863828ccd1e9033ad ""
   "images/neuron_multi.png" 1526404347 31510 aa66cf43972ec877719f8aeb07780e6c ""
   "images/quantization.png" 1527619726 70126 2b0fcc3b1a60b93e91b6ab049acaacaa ""
   "images/tpu_block.jpg" 1527619726 130739 f0e981d77f0883718dff48c68432caa6 ""
   "images/tpu_transistor_fordeling.jpg" 1527619726 155562 9be535c47e3d4f0c350e788743ab5395 ""
-  "rapport0.6.aux" 1527624628 4133 382539fcdb0d31c54a5fed460f3274d3 ""
-  "rapport0.6.bbl" 1527624626 17760 7ce36b195494282f54f6cfe51ee9108f "biber rapport0.6"
-  "rapport0.6.run.xml" 1527624628 2340 a0c1100fea7a6f6fd72745df047f7f31 ""
-  "rapport0.6.tex" 1527624623 20694 a0f884252bc46e2c6d49b534df7bc1ad ""
-  "rapport0.6.toc" 1527624628 1207 0ce3758b71ebbb5f6cfd329282c84155 ""
+  "rapport0.6.aux" 1527626111 4459 b666c7a39b300d9f2e6e903d8d8e423c ""
+  "rapport0.6.bbl" 1527624767 19746 0ee529cdce2f16a52221efa911e220a3 "biber rapport0.6"
+  "rapport0.6.run.xml" 1527626111 2340 a0c1100fea7a6f6fd72745df047f7f31 ""
+  "rapport0.6.tex" 1527626108 21894 3e41bce7ac2c736386b14a962621ca66 ""
+  "rapport0.6.toc" 1527626111 1207 b3393b851ad920721a3aa4d10c47ba57 ""
   (generated)
-  "rapport0.6.bcf"
-  "rapport0.6.log"
+  "rapport0.6.aux"
+  "rapport0.6.pdf"
   "rapport0.6.run.xml"
   "rapport0.6.toc"
-  "rapport0.6.pdf"
-  "rapport0.6.aux"
+  "rapport0.6.bcf"
+  "rapport0.6.log"

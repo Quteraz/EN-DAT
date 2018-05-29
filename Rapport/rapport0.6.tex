@@ -169,8 +169,16 @@ Når modellen blir trent, så blir justeringen av vektene basert på en kostnad 
 Når modellen er utrent så vil kostnaden være veldig høy, og vektene i alle nodene må bli beregnet på nytt for så å testes på nytt. Målet er at kostnaden skal være så nærme null som mulig.\newline
 Vektjusteringen blir ikke satt som en tilfeldig verdi. Denne beregningen kan man visualisere ved å lage en graf ut av kostnaden ved et gitt sett av input \cite{neural_net}. Ved å si at det bare et en inngang, så vil man ende opp med en vanlig x,y graf som på bilde3. Ved to innganger så hadde man endt opp med en 3-dimensjonal graf og den ender da opp med å bli uoversiktlig. Målet ved vektjusteringen er da å finne bunnpunktet på grafen, for det er der funksjonen er optimalisert. X-verdien på grafen blir da vekten som er best egnet.
 
-En stor utfordring er hvis man har flere bunnpunkter som på bildet3, for da er målet å finne bunnpunktet med lavest verdi, en såkalt global minima, istedenfor de andre lokale bunnpunktene \cite{neural_net}. Ved å ha ti-tusenvis av input til modellen så sier det seg selv at det kommer til å være mange lokale minima og en graf-representasjon er helt ubrukelig.
+En stor utfordring er hvis man har flere bunnpunkter som på bildet \ref{fig:kostnad}, for da er målet å finne bunnpunktet med lavest verdi, en såkalt global minima, istedenfor de andre lokale bunnpunktene \cite{neural_net}. Ved å ha ti-tusenvis av input til modellen så sier det seg selv at det kommer til å være mange lokale minima og en graf-representasjon er helt ubrukelig.
 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{images/cost_calc.png}
+    \caption{Eksempel på en lokal og en global minima}
+    \label{fig:kostnad}
+\end{figure}
+
+\newpage
 For å finne de nye vektene, så må man først finne ut hvilken vei grafen går. Ved å legge til den negative gradienten på vektene så får man den nye vekten som skal brukes. Hele denne prosessen kan gjøres ved å legge vektene og gradientene i en matrise, så kan man legge matrisene sammen. Altså, hvis man legger alle vektene i en kolonne-matrise som under, og trekkker fra gradienten, så ender man opp med et sett med nye vekter \cite{neural_net}.
 
 \begin{align}
@@ -291,10 +299,15 @@ Denne kategorien går ut på å oppnå den minste prisen for å trene opp til 93
 %----------------------------------------------------------------------------------------
 \newpage
 \section{Konklusjon}
-En fin konklusjon
+Siden vi møtte problemer med programmet underveis og at vi fant ut at vi ikke fikk brukt TPUen slik vi trodde til å begynne med, Så ble ikke den praktiske delen gjennomført slik som vi hadde planlagt.
+Selv om prosjektet ikke gikk helt som det skulle så har vi funnet ut hvordan forskjellige typer prosessorer fungerer, særlig om TPUen som har vært hovedfokuset ved siden av maskinlæring. Ved å studere de forskjellige prosessorene, så har vi funnet forskjeller som gir store utslag i effektiviseringen av maskinlæring som også har blitt vist i forskjellige benchmark som vi har sett nærmere på istedenfor å teste det selv.
+
+Denne forståelsen av hva som gjør prosessoren effektiv har vi fått av å studere nærmere hvilke beregninger som skal til i maskinlæring, og hvordan disse beregningene henger sammen. Dette ble litt større enn planlagt. På grunn av det så har vi bare skrapet litt på overflaten og prøvd å holde det relevant til det vi skulle lage.
+
 
 %----------------------------------------------------------------------------------------
 %	referanseliste
 %----------------------------------------------------------------------------------------
+\newpage
 \printbibliography[title=Referanser]
 \end{document}
