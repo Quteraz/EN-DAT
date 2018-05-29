@@ -42,6 +42,7 @@
 \usepackage{graphicx}
 \graphicspath{ {bilder/} }
 \usepackage{listings}
+\usepackage{amsmath,amsfonts,amsthm,mathtools} % Math packages
 
 \usepackage{biblatex}
 \addbibresource{bib.bib}
@@ -139,15 +140,18 @@ CPU-er har med årene blitt raskere og økt antall beregninger den kan gjøre i 
 %----------------------------------------------------------------------------------------
 \newpage
 \section{Nevralt nettverk}
-Dette er en teknikk innen maskinlæring som baserer seg på hvordan nevroner i hjernen funger for å lære seg ting. Systemet lærer ved å analysere et sett med eksempler på det den skal lære seg. I dette prosjektet så er det kort som skal gjenkjennes på bilder. Hele læreprosessen begynner med at kort på bilder blir markert, men ellers så har ikke algoritmen noen andre tegn å gå etter. Det finner algoritmen på selv.\newline
-Grovt sett så er et nevron i dette tilfellet et knutepunkt som lager en vektlagt sum. Denne verdien blir da kjørt inn som verdien i en funksjon slik som bilde \ref{fig:neuron} viser. Algoritmen sjekker om om det som kommer ut er det som er forventet eller ikke og juster vektene etter hvor mye som ble bommet på.\newline
+Dette er en teknikk innen maskinlæring som baserer seg på hvordan nevroner i hjernen funger for å lære seg ting. Systemet lærer ved å analysere et sett med eksempler på det den skal lære seg. I dette prosjektet så er det kort som skal gjenkjennes på bilder. Hele læreprosessen begynner med at kort på bilder blir markert, men ellers så har ikke algoritmen noen andre tegn å gå etter. Det finner algoritmen på selv.
+
+Grovt sett så er et nevron i dette tilfellet et knutepunkt som lager en vektlagt sum. Denne verdien blir da kjørt inn som verdien i en funksjon slik som bilde \ref{fig:neuron} viser. Algoritmen sjekker om om det som kommer ut er det som er forventet eller ikke og juster vektene etter hvor mye som ble bommet på \cite{Bonaccorso2017}.
+
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\textwidth]{images/neuron.png}
     \caption{Enkel ilustrasjon av et neuron}
     \label{fig:neuron}
 \end{figure}
-Flere nevroner kan kobles sammen i et nettverk, der input blir kjørt inn i flere nevroner slik som bildet \ref{fig:nettverk} viser. Hver nevron har da sine egne vekter og resultatet blir da skjørt inn i nye nevroner. I et slikt nettverk kan det være flere skjulte lag som gjør det samme som den første raden på bildet. Til slutt blir det tatt en beslutning basert på den siste rekken av nevroner. Denne beslutningen blir tatt basert på verdien til det siste laget. En godt trent modell skal kunne gi kun et nevron som skiller seg ut med den høyeste verdien, og alle de andre har en verdi nærmest mulig null.\newline
+\newpage
+Flere nevroner kan kobles sammen i et nettverk, der input blir kjørt inn i flere nevroner slik som bildet \ref{fig:nettverk} viser. Hver nevron har da sine egne vekter og resultatet blir da skjørt inn i nye nevroner. I et slikt nettverk kan det være flere skjulte lag som gjør det samme som den første raden på bildet \ref{fig:nettverk}. Til slutt blir det tatt en beslutning basert på den siste rekken av nevroner \cite{Bonaccorso2017}. Denne beslutningen blir tatt basert på verdien til det siste laget. En godt trent modell skal kunne gi kun et nevron som skiller seg ut med den høyeste verdien, og alle de andre har en verdi nærmest mulig null.
 
 \begin{figure}[ht]
     \centering
@@ -156,11 +160,36 @@ Flere nevroner kan kobles sammen i et nettverk, der input blir kjørt inn i fler
     \label{fig:nettverk}
 \end{figure}
 
-Når modellen blir trent, så blir justeringen av vektene basert på en kostnad som blir beregnet ut fra den siste raden av nevroner. Hvis bildet2 blir tatt som et utgangspunkt med et ukjent antall innganger, som kan være piksler fra et bilde, og to mulige utfall, for eksempel ’en’ og ’to’. Hvis modellen er utrent så vil utgangene være hva som helst og resultatet (Y) vil være helt tilfeldig. En kostnad  blir beregnet av summen av resultatet minus forventet resultat opphøyd i andre. $(sum((resultat-forventet)^2))$\newline
-Når modellen er utrent så vil kostnaden være veldig høy, og vektene i alle nodene må bli beregnet på nytt for så å testes på nytt. Målet er at kostnaden skal være så nærme null som mulig.
-Vektjusteringen blir ikke satt som en tilfeldig verdi. Denne beregningen kan man visualisere ved å lage en graf ut av kostnaden ved et gitt sett av input. Ved å si at det bare et en inngang, så vil man ende opp med en vanlig x,y graf som på bilde3. Ved to innganger så hadde man endt opp med en 3-dimensjonal graf og den ender da opp med å bli uoversiktlig. Målet ved vektjusteringen er da å finne bunnpunktet på grafen, for det er der funksjonen er optimalisert. X-verdien på grafen blir da vekten som er best egnet. \newline
-En stor utfordring er hvis man har flere bunnpunkter som på bildet3, for da er målet å finne bunnpunktet med lavest verdi, en såkalt global minima, istedenfor de andre lokale bunnpunktene. Ved å ha ti-tusenvis av input til modellen så sier det seg selv at det kommer til å være mange lokale minima og en graf-representasjon er helt ubrukelig.\newline
-For å finne de nye vektene, så må man først finne ut hvilken vei grafen går. Ved å legge til den negative gradienten på vektene så får man den nye vekten som skal brukes. Hele denne prosessen kan gjøres ved å legge vektene og gradientene i en matrise, så kan man legge matrisene sammen.  (kan trenge en visualisering av matrisene)\newline
+Når modellen blir trent, så blir justeringen av vektene basert på en kostnad som blir beregnet ut fra den siste raden av nevroner \cite{neural_net}. Hvis bildet \ref{fig:nettverk} blir tatt som et utgangspunkt med et ukjent antall innganger, som kan være piksler fra et bilde, og to mulige utfall, for eksempel ’en’ og ’to’. Hvis modellen er utrent så vil utgangene være hva som helst og resultatet (Y) vil være helt tilfeldig. En kostnad  blir beregnet av summen av resultatet minus forventet resultat opphøyd i andre slik som formelen under viser. Her så er $f$ forventet verdi, og $r$ er resultatet.
+
+\begin{align}
+	\sum{(r-f)^2}
+\end{align}
+
+Når modellen er utrent så vil kostnaden være veldig høy, og vektene i alle nodene må bli beregnet på nytt for så å testes på nytt. Målet er at kostnaden skal være så nærme null som mulig.\newline
+Vektjusteringen blir ikke satt som en tilfeldig verdi. Denne beregningen kan man visualisere ved å lage en graf ut av kostnaden ved et gitt sett av input \cite{neural_net}. Ved å si at det bare et en inngang, så vil man ende opp med en vanlig x,y graf som på bilde3. Ved to innganger så hadde man endt opp med en 3-dimensjonal graf og den ender da opp med å bli uoversiktlig. Målet ved vektjusteringen er da å finne bunnpunktet på grafen, for det er der funksjonen er optimalisert. X-verdien på grafen blir da vekten som er best egnet.
+
+En stor utfordring er hvis man har flere bunnpunkter som på bildet3, for da er målet å finne bunnpunktet med lavest verdi, en såkalt global minima, istedenfor de andre lokale bunnpunktene \cite{neural_net}. Ved å ha ti-tusenvis av input til modellen så sier det seg selv at det kommer til å være mange lokale minima og en graf-representasjon er helt ubrukelig.
+
+For å finne de nye vektene, så må man først finne ut hvilken vei grafen går. Ved å legge til den negative gradienten på vektene så får man den nye vekten som skal brukes. Hele denne prosessen kan gjøres ved å legge vektene og gradientene i en matrise, så kan man legge matrisene sammen. Altså, hvis man legger alle vektene i en kolonne-matrise som under, og trekkker fra gradienten, så ender man opp med et sett med nye vekter \cite{neural_net}.
+
+\begin{align}
+	\begin{bmatrix}
+		 3.67 \\
+		3.95 \\
+		-1.27
+	\end{bmatrix} - 
+	\begin{bmatrix}
+		 0.54 \\
+		-0.97 \\
+		 0.12
+	\end{bmatrix} = 
+	\begin{bmatrix}
+		 3.13 \\
+		-4.92 \\
+		-1.39
+	\end{bmatrix}
+\end{align}
 
 %----------------------------------------------------------------------------------------
 %	TPU
@@ -234,11 +263,13 @@ Siden den første versjonen av TPU-en kom ut i 2015 har det kommet nyere utgaver
 Som sammenlikningmateriale I prosjektet så blir algoritmen kjørt på en CPU og en GPU. CPUen som ble brukt er en intel i7-6700k prosessor som kjører skylake arkitekturen og GPUen er en EVGA  Geforce GTX 1070 som kjører NVIDIA sin Pascal arkitektur.
 
 \subsection{CPU}
-En standard brikke av i7-6700k er klokket til 4.0GHz, men brikken som ble brukt er blitt overklokket til 4.4GHz og spenningen er satt til en fast spenning på 1.250 istedenfor en varierende spenning som kan føre til en ujevn test på maskinvaren. En annen grunn til å gjøre spenningen statisk er at man slipper at spenningen blir farlig høy over lengre perioder som leder til lengre levetid på prosessoren.\newline
+En standard brikke av i7-6700k er klokket til 4.0GHz, men brikken som ble brukt er blitt overklokket til 4.4GHz og spenningen er satt til en fast spenning på 1.250 istedenfor en varierende spenning som kan føre til en ujevn test på maskinvaren. En annen grunn til å gjøre spenningen statisk er at man slipper at spenningen blir farlig høy over lengre perioder som leder til lengre levetid på prosessoren.
+
 Arkitekturen til chipen er laget for å være bakoverkompatibel, og har mange varierende instruksjoner. Dette fører til at brikken er veldig fleksibel, og gjør mye helt greit. Det betyr at den ikke er optimalisert til noe som helst.
 
 \subsection{GPU}
-GPUen er fabrikkoverklokket av EVGA og kjører derfor med noen differerende spesifikasjoner fra et standard kort fra NVIDIA. For eksempel så er klokkehastigheten økt fra 1506MHz(1683 boost) til 1594MHz(1784 boost). Kortet har blitt åpnet en gang for å legge på kjøleelementer på noen komponenter som stod I faresonen til å bli overopphetet. Dette kan medføre at kortet er bedre til å holde temperaturene nede, og forbedrer ytelsen i forhold til en brikke som kommer rett fra NVIDIA.\newline
+GPUen er fabrikkoverklokket av EVGA og kjører derfor med noen differerende spesifikasjoner fra et standard kort fra NVIDIA. For eksempel så er klokkehastigheten økt fra 1506MHz(1683 boost) til 1594MHz(1784 boost). Kortet har blitt åpnet en gang for å legge på kjøleelementer på noen komponenter som stod I faresonen til å bli overopphetet. Dette kan medføre at kortet er bedre til å holde temperaturene nede, og forbedrer ytelsen i forhold til en brikke som kommer rett fra NVIDIA.
+
 Siden brikken er god på å generere masse piksler som skal vises på en skjerm, så er arkitekturen god på matriseregning. Dette er viktig fordi matriseregning er en effektiv måte å trene et nevralt nettverk som vist i kapittelet nevralt nettverk. Dert at brikken kan gjøre slike beregninger parallelt og er ekepsjonelt god til pikselhånderinger, så står den i ganske stor kontrast til CPUen.
 
 %----------------------------------------------------------------------------------------
@@ -265,5 +296,5 @@ En fin konklusjon
 %----------------------------------------------------------------------------------------
 %	referanseliste
 %----------------------------------------------------------------------------------------
-\printbibliography
+\printbibliography[title=Referanser]
 \end{document}

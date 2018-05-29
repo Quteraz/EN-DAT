@@ -2143,16 +2143,22 @@
     <bcf:datasource type="file" datatype="bibtex">bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">look_at_TPU</bcf:citekey>
-    <bcf:citekey order="2">tpu_main</bcf:citekey>
-    <bcf:citekey order="3">tpu_main</bcf:citekey>
-    <bcf:citekey order="4">look_at_TPU</bcf:citekey>
-    <bcf:citekey order="5">look_at_TPU</bcf:citekey>
-    <bcf:citekey order="6">look_at_TPU</bcf:citekey>
-    <bcf:citekey order="7">tpu_main</bcf:citekey>
-    <bcf:citekey order="8">tpu_video</bcf:citekey>
-    <bcf:citekey order="9">benchmark</bcf:citekey>
-    <bcf:citekey order="10">image-net</bcf:citekey>
+    <bcf:citekey order="1">Bonaccorso2017</bcf:citekey>
+    <bcf:citekey order="2">Bonaccorso2017</bcf:citekey>
+    <bcf:citekey order="3">neural_net</bcf:citekey>
+    <bcf:citekey order="4">neural_net</bcf:citekey>
+    <bcf:citekey order="5">neural_net</bcf:citekey>
+    <bcf:citekey order="6">neural_net</bcf:citekey>
+    <bcf:citekey order="7">look_at_TPU</bcf:citekey>
+    <bcf:citekey order="8">tpu_main</bcf:citekey>
+    <bcf:citekey order="9">tpu_main</bcf:citekey>
+    <bcf:citekey order="10">look_at_TPU</bcf:citekey>
+    <bcf:citekey order="11">look_at_TPU</bcf:citekey>
+    <bcf:citekey order="12">look_at_TPU</bcf:citekey>
+    <bcf:citekey order="13">tpu_main</bcf:citekey>
+    <bcf:citekey order="14">tpu_video</bcf:citekey>
+    <bcf:citekey order="15">benchmark</bcf:citekey>
+    <bcf:citekey order="16">image-net</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

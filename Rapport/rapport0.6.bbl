@@ -1,0 +1,476 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{benchmark}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 28.05.2018)}
+      \field{title}{DAWNBench}
+      \verb{url}
+      \verb http://dawn.cs.stanford.edu/benchmark/ImageNet/train.html
+      \endverb
+      \keyw{TPU,Neural Network}
+    \endentry
+    \entry{tpu_video}{online}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 28.05.2018)}
+      \field{title}{Effective machine learning using Cloud TPUs (Google I/O '18)}
+      \verb{url}
+      \verb https://youtu.be/zEOtG-ChmZE
+      \endverb
+      \keyw{Image,Neural Network,TPU}
+    \endentry
+    \entry{image-net}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 28.05.2018)}
+      \field{title}{ImageNet}
+      \verb{url}
+      \verb http://www.image-net.org/index
+      \endverb
+      \keyw{Image,Neural Network,Open Source}
+    \endentry
+    \entry{tpu_main}{article}{}
+      \name{author}{74}{}{%
+        {{hash=21eb78393b125edfd551a06402560e2a}{%
+           family={Jouppi},
+           familyi={J\bibinitperiod},
+           given={Norman\bibnamedelima P.},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=2b3412c48bab46f41faab78455fce0e1}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Cliff},
+           giveni={C\bibinitperiod}}}%
+        {{hash=98e48fd2ef83c15cb4e696e6243eef05}{%
+           family={Patil},
+           familyi={P\bibinitperiod},
+           given={Nishant},
+           giveni={N\bibinitperiod}}}%
+        {{hash=165ddeb6402743c450e450cdc7bbb9ff}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=74807a6d988186a9817a547408d8bb77}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Gaurav},
+           giveni={G\bibinitperiod}}}%
+        {{hash=120d928debde9c8a2bc6ac015f623e8c}{%
+           family={Bajwa},
+           familyi={B\bibinitperiod},
+           given={Raminder},
+           giveni={R\bibinitperiod}}}%
+        {{hash=eafee5821b3a759eeb4350ecb60b1973}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=158bf7535f376e882773db8f6306f5e7}{%
+           family={Bhatia},
+           familyi={B\bibinitperiod},
+           given={Suresh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=20809ed2e8eff0197b2917012f6d7b04}{%
+           family={Boden},
+           familyi={B\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=38dc630b1c85638854dae68766a3a267}{%
+           family={Borchers},
+           familyi={B\bibinitperiod},
+           given={Al},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0095869251fbc1f2fbd4479390f1dcbc}{%
+           family={Boyle},
+           familyi={B\bibinitperiod},
+           given={Rick},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7bf058ed0ff2fd8a677f1d969e553b0e}{%
+           family={Cantin},
+           familyi={C\bibinitperiod},
+           given={Pierre{-}luc},
+           giveni={P\bibinitperiod}}}%
+        {{hash=12c6851173c05be41b5df010216d21bf}{%
+           family={Chao},
+           familyi={C\bibinitperiod},
+           given={Clifford},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e9c2ebaa8a7158905d3c92f1e5e814e2}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=65e648c4ce8673441f6ef50f2fc5a9a7}{%
+           family={Coriell},
+           familyi={C\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=703d3dda3f944af1ebcd379371d27ea5}{%
+           family={Daley},
+           familyi={D\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=650cd8fa953d4fe9a99a436569a68b64}{%
+           family={Dau},
+           familyi={D\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4aecfb0cc2e1e3b7899129fa2a94e2b8}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6709288fd9b8572164f780ab7f68c027}{%
+           family={Gelb},
+           familyi={G\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=86d16e5744d6e58cdceff842e42e469f}{%
+           family={Ghaemmaghami},
+           familyi={G\bibinitperiod},
+           given={Tara\bibnamedelima Vazir},
+           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=bfe9bd212fa3c1e14633218db79043cd}{%
+           family={Gottipati},
+           familyi={G\bibinitperiod},
+           given={Rajendra},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5b95cb03cf157bb75bbc356a9d72ba79}{%
+           family={Gulland},
+           familyi={G\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=052a58a1e87399ba5d5f308a4be577ca}{%
+           family={Hagmann},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d95462d300f3086a1d262b7c59b2b613}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=edbf8ffeface55668d0de897df3b3f45}{%
+           family={Hogberg},
+           familyi={H\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+        {{hash=41750660c35d799c170678222a774ea8}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a0098788063d4fad833bc477a665d913}{%
+           family={Hundt},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d5084fba35f47cfbcf2e4b8f18780cc2}{%
+           family={Hurt},
+           familyi={H\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=03345358e737db6abfc1f5accfc48533}{%
+           family={Ibarz},
+           familyi={I\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2d9f6d558519c9b66b62133fa212047b}{%
+           family={Jaffey},
+           familyi={J\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4bedac9743228f966ecc6c3d9243fd5b}{%
+           family={Jaworski},
+           familyi={J\bibinitperiod},
+           given={Alek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2fcdfa905a9fb92046b78652e039bd99}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=81eb0e1b40308acf041041d47c2326b0}{%
+           family={Khaitan},
+           familyi={K\bibinitperiod},
+           given={Harshit},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f64657dee124882f5abd3d820e221ddc}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=033e1978ba23825a196e6284416fcb4a}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Naveen},
+           giveni={N\bibinitperiod}}}%
+        {{hash=24dddf31bfb6dd1fab14bad91f1cc8a2}{%
+           family={Lacy},
+           familyi={L\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=681ec2d612448910f8b7dbdf5fca78f1}{%
+           family={Laudon},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a7bdb9538f3ef27d78bc069593577d58}{%
+           family={Law},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1ccf841d4dec8310f6f87c3bc494a76c}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Diemthu},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0101ae5b219809cf901e7645ca40b9ae}{%
+           family={Leary},
+           familyi={L\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=56ab69534a7c115e7de4255131cd60a3}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhuyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4e14bebd6afdd3c260e725ea06e37595}{%
+           family={Lucke},
+           familyi={L\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=513499c6fb32c88e787fb13a818f7c64}{%
+           family={Lundin},
+           familyi={L\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9444d780778381063a918ba72613ba24}{%
+           family={MacKean},
+           familyi={M\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d6453cf324ba0656c4cf2361e41cc1be}{%
+           family={Maggiore},
+           familyi={M\bibinitperiod},
+           given={Adriana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=307c4e6646134ebb1bde440f6f1c4914}{%
+           family={Mahony},
+           familyi={M\bibinitperiod},
+           given={Maire},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c401a24f4dffeff337816292d3f2a46a}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Kieran},
+           giveni={K\bibinitperiod}}}%
+        {{hash=79fadc0c81fb0a5cb1f16bb3b3180113}{%
+           family={Nagarajan},
+           familyi={N\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod}}}%
+        {{hash=184dcff61334dc65a7da0b036d264b5e}{%
+           family={Narayanaswami},
+           familyi={N\bibinitperiod},
+           given={Ravi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=86d75a72231ee23db3f0415227dcbc88}{%
+           family={Ni},
+           familyi={N\bibinitperiod},
+           given={Ray},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e4a239a65dea655b389b68153bfa260a}{%
+           family={Nix},
+           familyi={N\bibinitperiod},
+           given={Kathy},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4a0e950650bec8edd173aa615ba4b517}{%
+           family={Norrie},
+           familyi={N\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=90870f8d2c2dd318f093ef32f3b7b56a}{%
+           family={Omernick},
+           familyi={O\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3f28f5556771fb42bddd59be704ac783}{%
+           family={Penukonda},
+           familyi={P\bibinitperiod},
+           given={Narayana},
+           giveni={N\bibinitperiod}}}%
+        {{hash=743143a0eef16de0d7c60d709aaddd44}{%
+           family={Phelps},
+           familyi={P\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=78741497b0e1f2cc97516c9d5f722c91}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0d36745d1e53123354b81a31144a0eb3}{%
+           family={Salek},
+           familyi={S\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=038b70a3cae6409fc0a576b7f6d4ea31}{%
+           family={Samadiani},
+           familyi={S\bibinitperiod},
+           given={Emad},
+           giveni={E\bibinitperiod}}}%
+        {{hash=eaabe46b5c67edc45ba324663e2fad25}{%
+           family={Severn},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d697a7b1ac2fb48b42cbf07ebc496d71}{%
+           family={Sizikov},
+           familyi={S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f21022fffaa1408e30816137550ff9f1}{%
+           family={Snelham},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f9d0b27578422a5b133ec223f9cb3283}{%
+           family={Souter},
+           familyi={S\bibinitperiod},
+           given={Jed},
+           giveni={J\bibinitperiod}}}%
+        {{hash=26b0fdde47ca3bcc90b785fda1cd14d4}{%
+           family={Steinberg},
+           familyi={S\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6305d4902371102e8d1f9f933d9c2845}{%
+           family={Swing},
+           familyi={S\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f16f1290599031a4df17c00ddb1d864b}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Mercedes},
+           giveni={M\bibinitperiod}}}%
+        {{hash=28b48771eabfc329ee18e7fe04a14250}{%
+           family={Thorson},
+           familyi={T\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9bab0cd08d1b2f5aeaccf830c9eeafa8}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=21dfe69a39c740a4f162a09668dc6786}{%
+           family={Toma},
+           familyi={T\bibinitperiod},
+           given={Horia},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3af3aec04769a090edb632ee213498fc}{%
+           family={Tuttle},
+           familyi={T\bibinitperiod},
+           given={Erick},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bab2011f2b9e7af47ab45308470b9faf}{%
+           family={Vasudevan},
+           familyi={V\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=3a681bbbf3e5400be666826f19cd390e}{%
+           family={Walter},
+           familyi={W\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c13307bca415df3ecf92dc520c61584a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+        {{hash=69b5922f11425d5ed22558be14aad2b6}{%
+           family={Wilcox},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3d2b06c9f75f740e8a16a4f06b47b2a1}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Doe\bibnamedelima Hyun},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2396d13ffbdd7806adee888da1af963}
+      \strng{fullhash}{20af15f43de5172a0307c701e847fc49}
+      \strng{authornamehash}{a2396d13ffbdd7806adee888da1af963}
+      \strng{authorfullhash}{20af15f43de5172a0307c701e847fc49}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{In-Datacenter Performance Analysis of a Tensor Processing Unit}
+      \field{volume}{abs/1704.04760}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1704.04760
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1704.04760
+      \endverb
+    \endentry
+    \entry{look_at_TPU}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2e60b06680e302600f7b3b9b6fe1d43e}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Kaz},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e60b06680e302600f7b3b9b6fe1d43e}
+      \strng{fullhash}{2e60b06680e302600f7b3b9b6fe1d43e}
+      \strng{authornamehash}{2e60b06680e302600f7b3b9b6fe1d43e}
+      \strng{authorfullhash}{2e60b06680e302600f7b3b9b6fe1d43e}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 01.05.2018)}
+      \field{title}{An in-depth look at Google’s first Tensor Processing Unit (TPU)}
+      \verb{url}
+      \verb https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu
+      \endverb
+      \keyw{TPU,Neural Network}
+    \endentry
+  \endsortlist
+  \missing{Bonaccorso2017}
+  \missing{neural_net}
+\endrefsection
+\endinput
+
