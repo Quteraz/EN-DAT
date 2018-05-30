@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.12)  30 MAY 2018 09:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.12)  30 MAY 2018 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**rapport0.6.tex
-(./rapport0.6.tex
+**rapport0.8.tex
+(./rapport0.8.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -745,6 +745,23 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen125
 \l_MT_below_shortintertext_sep=\dimen126
 )
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen127
+\captionmargin@=\dimen128
+\captionwidth=\dimen129
+\caption@tempdima=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
+)
+\c@ContinuedFloat=\count111
+Package caption Info: listings package is loaded.
+)
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
 
@@ -772,7 +789,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count111
+\etb@tempcnta=\count112
 )
 (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
@@ -789,7 +806,7 @@ Package etexcmds Info: Could not find \expanded.
 )))
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count112
+\lrq@indent=\count113
 
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -804,49 +821,49 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 (/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
-\integerpart=\count113
-\decimalpart=\count114
+\integerpart=\count114
+\decimalpart=\count115
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count115
-\c@listtotal=\count116
-\c@listcount=\count117
-\c@liststart=\count118
-\c@liststop=\count119
-\c@citecount=\count120
-\c@citetotal=\count121
-\c@multicitecount=\count122
-\c@multicitetotal=\count123
-\c@instcount=\count124
-\c@maxnames=\count125
-\c@minnames=\count126
-\c@maxitems=\count127
-\c@minitems=\count128
-\c@citecounter=\count129
-\c@savedcitecounter=\count130
-\c@uniquelist=\count131
-\c@uniquename=\count132
-\c@refsection=\count133
-\c@refsegment=\count134
-\c@maxextratitle=\count135
-\c@maxextratitleyear=\count136
-\c@maxextradate=\count137
-\c@maxextraalpha=\count138
-\c@abbrvpenalty=\count139
-\c@highnamepenalty=\count140
-\c@lownamepenalty=\count141
-\c@maxparens=\count142
-\c@parenlevel=\count143
-\blx@tempcnta=\count144
-\blx@tempcntb=\count145
-\blx@tempcntc=\count146
-\blx@maxsection=\count147
-\blx@maxsegment@0=\count148
-\blx@notetype=\count149
-\blx@parenlevel@text=\count150
-\blx@parenlevel@foot=\count151
-\blx@sectionciteorder@0=\count152
+\c@tabx@nest=\count116
+\c@listtotal=\count117
+\c@listcount=\count118
+\c@liststart=\count119
+\c@liststop=\count120
+\c@citecount=\count121
+\c@citetotal=\count122
+\c@multicitecount=\count123
+\c@multicitetotal=\count124
+\c@instcount=\count125
+\c@maxnames=\count126
+\c@minnames=\count127
+\c@maxitems=\count128
+\c@minitems=\count129
+\c@citecounter=\count130
+\c@savedcitecounter=\count131
+\c@uniquelist=\count132
+\c@uniquename=\count133
+\c@refsection=\count134
+\c@refsegment=\count135
+\c@maxextratitle=\count136
+\c@maxextratitleyear=\count137
+\c@maxextradate=\count138
+\c@maxextraalpha=\count139
+\c@abbrvpenalty=\count140
+\c@highnamepenalty=\count141
+\c@lownamepenalty=\count142
+\c@maxparens=\count143
+\c@parenlevel=\count144
+\blx@tempcnta=\count145
+\blx@tempcntb=\count146
+\blx@tempcntc=\count147
+\blx@maxsection=\count148
+\blx@maxsegment@0=\count149
+\blx@notetype=\count150
+\blx@parenlevel@text=\count151
+\blx@parenlevel@foot=\count152
+\blx@sectionciteorder@0=\count153
 \labelnumberwidth=\skip53
 \labelalphawidth=\skip54
 \biblabelsep=\skip55
@@ -857,83 +874,83 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip60
 \blx@bcfin=\read1
 \blx@bcfout=\write4
-\c@mincomprange=\count153
-\c@maxcomprange=\count154
-\c@mincompwidth=\count155
+\c@mincomprange=\count154
+\c@maxcomprange=\count155
+\c@mincompwidth=\count156
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count156
-\c@savedafterword=\count157
-\c@annotator=\count158
-\c@savedannotator=\count159
-\c@author=\count160
-\c@savedauthor=\count161
-\c@bookauthor=\count162
-\c@savedbookauthor=\count163
-\c@commentator=\count164
-\c@savedcommentator=\count165
-\c@editor=\count166
-\c@savededitor=\count167
-\c@editora=\count168
-\c@savededitora=\count169
-\c@editorb=\count170
-\c@savededitorb=\count171
-\c@editorc=\count172
-\c@savededitorc=\count173
-\c@foreword=\count174
-\c@savedforeword=\count175
-\c@holder=\count176
-\c@savedholder=\count177
-\c@introduction=\count178
-\c@savedintroduction=\count179
-\c@namea=\count180
-\c@savednamea=\count181
-\c@nameb=\count182
-\c@savednameb=\count183
-\c@namec=\count184
-\c@savednamec=\count185
-\c@translator=\count186
-\c@savedtranslator=\count187
-\c@shortauthor=\count188
-\c@savedshortauthor=\count189
-\c@shorteditor=\count190
-\c@savedshorteditor=\count191
-\c@labelname=\count192
-\c@savedlabelname=\count193
-\c@institution=\count194
-\c@savedinstitution=\count195
-\c@lista=\count196
-\c@savedlista=\count197
-\c@listb=\count198
-\c@savedlistb=\count199
-\c@listc=\count266
-\c@savedlistc=\count267
-\c@listd=\count268
-\c@savedlistd=\count269
-\c@liste=\count270
-\c@savedliste=\count271
-\c@listf=\count272
-\c@savedlistf=\count273
-\c@location=\count274
-\c@savedlocation=\count275
-\c@organization=\count276
-\c@savedorganization=\count277
-\c@origlocation=\count278
-\c@savedoriglocation=\count279
-\c@origpublisher=\count280
-\c@savedorigpublisher=\count281
-\c@publisher=\count282
-\c@savedpublisher=\count283
-\c@language=\count284
-\c@savedlanguage=\count285
-\c@origlanguage=\count286
-\c@savedoriglanguage=\count287
-\c@pageref=\count288
-\c@savedpageref=\count289
+\c@afterword=\count157
+\c@savedafterword=\count158
+\c@annotator=\count159
+\c@savedannotator=\count160
+\c@author=\count161
+\c@savedauthor=\count162
+\c@bookauthor=\count163
+\c@savedbookauthor=\count164
+\c@commentator=\count165
+\c@savedcommentator=\count166
+\c@editor=\count167
+\c@savededitor=\count168
+\c@editora=\count169
+\c@savededitora=\count170
+\c@editorb=\count171
+\c@savededitorb=\count172
+\c@editorc=\count173
+\c@savededitorc=\count174
+\c@foreword=\count175
+\c@savedforeword=\count176
+\c@holder=\count177
+\c@savedholder=\count178
+\c@introduction=\count179
+\c@savedintroduction=\count180
+\c@namea=\count181
+\c@savednamea=\count182
+\c@nameb=\count183
+\c@savednameb=\count184
+\c@namec=\count185
+\c@savednamec=\count186
+\c@translator=\count187
+\c@savedtranslator=\count188
+\c@shortauthor=\count189
+\c@savedshortauthor=\count190
+\c@shorteditor=\count191
+\c@savedshorteditor=\count192
+\c@labelname=\count193
+\c@savedlabelname=\count194
+\c@institution=\count195
+\c@savedinstitution=\count196
+\c@lista=\count197
+\c@savedlista=\count198
+\c@listb=\count199
+\c@savedlistb=\count266
+\c@listc=\count267
+\c@savedlistc=\count268
+\c@listd=\count269
+\c@savedlistd=\count270
+\c@liste=\count271
+\c@savedliste=\count272
+\c@listf=\count273
+\c@savedlistf=\count274
+\c@location=\count275
+\c@savedlocation=\count276
+\c@organization=\count277
+\c@savedorganization=\count278
+\c@origlocation=\count279
+\c@savedoriglocation=\count280
+\c@origpublisher=\count281
+\c@savedorigpublisher=\count282
+\c@publisher=\count283
+\c@savedpublisher=\count284
+\c@language=\count285
+\c@savedlanguage=\count286
+\c@origlanguage=\count287
+\c@savedoriglanguage=\count288
+\c@pageref=\count289
+\c@savedpageref=\count290
 \shorthandwidth=\skip61
 \shortjournalwidth=\skip62
 \shortserieswidth=\skip63
@@ -951,13 +968,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count290
-\c@textcitetotal=\count291
-\c@textcitemaxnames=\count292
-\c@biburlnumpenalty=\count293
-\c@biburlucpenalty=\count294
-\c@biburllcpenalty=\count295
-\c@smartand=\count296
+\c@textcitecount=\count291
+\c@textcitetotal=\count292
+\c@textcitemaxnames=\count293
+\c@biburlnumpenalty=\count294
+\c@biburlucpenalty=\count295
+\c@biburllcpenalty=\count296
+\c@smartand=\count297
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -969,8 +986,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count297
-\c@bbx:relatedtotal=\count298
+\c@bbx:relatedcount=\count298
+\c@bbx:relatedtotal=\count299
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1001,63 +1018,63 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count299
-\@quotereset=\count300
- (./rapport0.6.aux)
-\openout1 = `rapport0.6.aux'.
+\@quotelevel=\count300
+\@quotereset=\count301
+ (./rapport0.8.aux)
+\openout1 = `rapport0.8.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 57.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 53.
-LaTeX Font Info:    Try loading font information for LS1+stix on input line 53.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for LS1+stix on input line 57.
 
 
 (/usr/share/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 53.
-LaTeX Font Info:    Try loading font information for LS2+stix on input line 53.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for LS2+stix on input line 57.
 
 
 (/usr/share/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Try loading font information for T1+stix on input line 53.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Try loading font information for T1+stix on input line 57.
 
 (/usr/share/texmf-dist/tex/latex/stix/t1stix.fd
 File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
 )
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count301
-\scratchdimen=\dimen127
+\scratchcounter=\count302
+\scratchdimen=\dimen134
 \scratchbox=\box30
-\nofMPsegments=\count302
-\nofMParguments=\count303
+\nofMPsegments=\count303
+\nofMParguments=\count304
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count304
-\MPscratchDim=\dimen128
-\MPnumerator=\count305
-\makeMPintoPDFobject=\count306
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen135
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks30
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1079,521 +1096,229 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count307
+\c@lstlisting=\count308
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `rapport0.6.bcf'.
+\openout4 = `rapport0.8.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'rapport0.8.bbl' not found.
 
-
-Package biblatex Warning: File 'rapport0.6.bbl' is wrong format version - expec
-ted 2.9.
-
-Package biblatex Info: ... file 'rapport0.6.bbl' found.
-(./rapport0.6.bbl
-! Undefined control sequence.
-l.21   \sortlist
-                [entry]{nty/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\entry ...ata@\the \c@refsection @\blx@dlist@name 
-                                                  @\abx@field@entrykey }\csu...
-l.22     \entry{Bonaccorso2017}{book}{}
-                                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{entry} {\listcsxadd {blx...
-l.51     \endentry
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{list} {\blx@bbl@labelfie...
-l.51     \endentry
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\entry ...ata@\the \c@refsection @\blx@dlist@name 
-                                                  @\abx@field@entrykey }\csu...
-l.52     \entry{benchmark}{online}{}
-                                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{entry} {\listcsxadd {blx...
-l.62     \endentry
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{list} {\blx@bbl@labelfie...
-l.62     \endentry
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\entry ...ata@\the \c@refsection @\blx@dlist@name 
-                                                  @\abx@field@entrykey }\csu...
-l.63     \entry{tpu_video}{online}{}
-                                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{entry} {\listcsxadd {blx...
-l.73     \endentry
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{list} {\blx@bbl@labelfie...
-l.73     \endentry
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\entry ...ata@\the \c@refsection @\blx@dlist@name 
-                                                  @\abx@field@entrykey }\csu...
-l.74     \entry{image-net}{online}{}
-                                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{entry} {\listcsxadd {blx...
-l.84     \endentry
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{list} {\blx@bbl@labelfie...
-l.84     \endentry
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\entry ...ata@\the \c@refsection @\blx@dlist@name 
-                                                  @\abx@field@entrykey }\csu...
-l.85     \entry{tpu_main}{article}{}
-                                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{entry} {\listcsxadd {blx...
-l.477     \endentry
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{list} {\blx@bbl@labelfie...
-l.477     \endentry
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\entry ...ata@\the \c@refsection @\blx@dlist@name 
-                                                  @\abx@field@entrykey }\csu...
-l.478     \entry{neural_net}{mvbook}{}
-                                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{entry} {\listcsxadd {blx...
-l.502     \endentry
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{list} {\blx@bbl@labelfie...
-l.502     \endentry
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\entry ...ata@\the \c@refsection @\blx@dlist@name 
-                                                  @\abx@field@entrykey }\csu...
-l.503     \entry{look_at_TPU}{online}{}
-                                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{entry} {\listcsxadd {blx...
-l.525     \endentry
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...equal \expandafter {\blx@dlist@type 
-                                                  }{list} {\blx@bbl@labelfie...
-l.525     \endentry
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.526   \endsortlist
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
-Package biblatex Info: Reference section=0 on input line 53.
-Package biblatex Info: Reference segment=0 on input line 53.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+No file rapport0.8.bbl.
+Package biblatex Info: Reference section=0 on input line 57.
+Package biblatex Info: Reference segment=0 on input line 57.
 LaTeX Font Info:    Font shape `T1/stix/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/stix/b/n' tried instead on input line 80.
+(Font)              Font shape `T1/stix/b/n' tried instead on input line 84.
 LaTeX Font Info:    Try loading font information for LS1+stixscr on input line 
-94.
-
+98.
 (/usr/share/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Try loading font information for LS2+stixex on input line 9
-4.
+8.
 
 (/usr/share/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS1+stixfrak on input line
- 94.
+ 98.
 
 (/usr/share/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Try loading font information for LS1+stixbb on input line 9
-4.
+8.
 
 (/usr/share/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS2+stixcal on input line 
-94.
+98.
 
 (/usr/share/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Try loading font information for LS1+stixsf on input line 9
-4.
+8.
 
 (/usr/share/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS2+stixtt on input line 9
-4.
+8.
 
 (/usr/share/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 94.
+LaTeX Font Info:    Try loading font information for U+msa on input line 98.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 94.
+LaTeX Font Info:    Try loading font information for U+msb on input line 98.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1]
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/stix/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/stix/b/n' tried instead on input line 129.
- (./rapport0.6.toc
+(Font)              Font shape `T1/stix/b/n' tried instead on input line 133.
+ (./rapport0.8.toc
 LaTeX Font Info:    Font shape `T1/stix/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/stix/b/n' tried instead on input line 3.
 )
 \tf@toc=\write5
-\openout5 = `rapport0.6.toc'.
+\openout5 = `rapport0.8.toc'.
+
+ [1] [2]
+
+LaTeX Warning: Citation 'Bonaccorso2017' on page 3 undefined on input line 149.
 
 
-[1] [2]
+<images/neuron.PNG, id=15, 416.30531pt x 274.77657pt>
+File: images/neuron.PNG Graphic file (type png)
+<use images/neuron.PNG>
+Package pdftex.def Info: images/neuron.PNG  used on input line 153.
+(pdftex.def)             Requested size: 360.0pt x 237.62393pt.
+[3 <./images/neuron.PNG>]
 
-LaTeX Warning: Citation 'Bonaccorso2017' on page 3 undefined on input line 145.
-
-
-
-LaTeX Warning: File `images/neuron.png' not found on input line 149.
-
-
-! Package pdftex.def Error: File `images/neuron.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 ...hics[width=\textwidth]{images/neuron.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 149.
-
-(/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [3]
-
-LaTeX Warning: Citation 'Bonaccorso2017' on page 4 undefined on input line 154.
+LaTeX Warning: Citation 'Bonaccorso2017' on page 4 undefined on input line 158.
 
 
+<images/neuron_multi.PNG, id=21, 741.52031pt x 344.78813pt>
+File: images/neuron_multi.PNG Graphic file (type png)
+<use images/neuron_multi.PNG>
+Package pdftex.def Info: images/neuron_multi.PNG  used on input line 162.
+(pdftex.def)             Requested size: 360.0pt x 167.39038pt.
 
-LaTeX Warning: File `images/neuron_multi.png' not found on input line 158.
-
-
-! Package pdftex.def Error: File `images/neuron_multi.png' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 ...idth=\textwidth]{images/neuron_multi.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation 'neural_net' on page 4 undefined on input line 167.
 
 
-LaTeX Warning: Citation 'neural_net' on page 4 undefined on input line 163.
+LaTeX Warning: Citation 'neural_net' on page 4 undefined on input line 173.
+
+[4 <./images/neuron_multi.PNG>]
+
+LaTeX Warning: Citation 'neural_net' on page 5 undefined on input line 175.
+
+<images/cost_calc.PNG, id=29, 713.66624pt x 444.91219pt>
+File: images/cost_calc.PNG Graphic file (type png)
+<use images/cost_calc.PNG>
+Package pdftex.def Info: images/cost_calc.PNG  used on input line 179.
+(pdftex.def)             Requested size: 360.0pt x 224.43108pt.
+[5 <./images/cost_calc.PNG>]
+
+LaTeX Warning: Citation 'neural_net' on page 6 undefined on input line 185.
+
+[6]
+
+LaTeX Warning: Citation 'look_at_TPU' on page 7 undefined on input line 213.
 
 
-LaTeX Warning: Citation 'neural_net' on page 4 undefined on input line 170.
+LaTeX Warning: Citation 'tpu_main' on page 7 undefined on input line 215.
 
 
-LaTeX Warning: Citation 'neural_net' on page 4 undefined on input line 172.
-
-
-LaTeX Warning: File `images/cost_calc.png' not found on input line 176.
-
-
-! Package pdftex.def Error: File `images/cost_calc.png' not found: using draft 
-setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 ...s[width=\textwidth]{images/cost_calc.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[4]
-
-LaTeX Warning: Citation 'neural_net' on page 5 undefined on input line 182.
-
-[5]
-
-LaTeX Warning: Citation 'look_at_TPU' on page 6 undefined on input line 210.
-
-
-LaTeX Warning: Citation 'tpu_main' on page 6 undefined on input line 212.
-
-
-LaTeX Warning: Citation 'tpu_main' on page 6 undefined on input line 214.
+LaTeX Warning: Citation 'tpu_main' on page 7 undefined on input line 217.
 
 LaTeX Font Info:    Font shape `T1/stix/bx/n' in size <12> not available
-(Font)              Font shape `T1/stix/b/n' tried instead on input line 216.
-<images/tpu_transistor_fordeling.jpg, id=31, 531.9875pt x 425.59pt>
+(Font)              Font shape `T1/stix/b/n' tried instead on input line 219.
+<images/tpu_transistor_fordeling.jpg, id=38, 531.9875pt x 425.59pt>
 File: images/tpu_transistor_fordeling.jpg Graphic file (type jpg)
 <use images/tpu_transistor_fordeling.jpg>
 Package pdftex.def Info: images/tpu_transistor_fordeling.jpg  used on input lin
-e 221.
+e 224.
 (pdftex.def)             Requested size: 360.0pt x 288.00764pt.
+[7]
 
-LaTeX Warning: Citation 'look_at_TPU' on page 6 undefined on input line 226.
+LaTeX Warning: Citation 'look_at_TPU' on page 8 undefined on input line 229.
 
 
-Overfull \hbox (5.29501pt too wide) in paragraph at lines 226--227
+Overfull \hbox (5.29501pt too wide) in paragraph at lines 229--230
 \T1/stix/m/n/10.95 funksjoner(satt sam-men av flere in-strukser). Noen CPU-er o
 g GPU-er im-ple-menterer
  []
 
-[6]
 
-LaTeX Warning: Citation 'look_at_TPU' on page 7 undefined on input line 228.
+LaTeX Warning: Citation 'look_at_TPU' on page 8 undefined on input line 231.
 
-<images/MXU.png, id=35, 376.40625pt x 310.15875pt>
+[8 <./images/tpu_transistor_fordeling.jpg>]
+<images/MXU.png, id=45, 376.40625pt x 310.15875pt>
 File: images/MXU.png Graphic file (type png)
 <use images/MXU.png>
-Package pdftex.def Info: images/MXU.png  used on input line 232.
+Package pdftex.def Info: images/MXU.png  used on input line 235.
 (pdftex.def)             Requested size: 360.0pt x 296.6605pt.
 
-LaTeX Warning: Citation 'look_at_TPU' on page 7 undefined on input line 237.
 
-<images/quantization.png, id=36, 1603.9925pt x 813.0375pt>
+LaTeX Warning: Citation 'look_at_TPU' on page 9 undefined on input line 240.
+
+<images/quantization.png, id=46, 1603.9925pt x 813.0375pt>
 File: images/quantization.png Graphic file (type png)
 <use images/quantization.png>
-Package pdftex.def Info: images/quantization.png  used on input line 241.
+Package pdftex.def Info: images/quantization.png  used on input line 244.
 (pdftex.def)             Requested size: 360.0pt x 182.47893pt.
 
-LaTeX Warning: Citation 'tpu_main' on page 7 undefined on input line 246.
+LaTeX Warning: Citation 'tpu_main' on page 9 undefined on input line 249.
 
-<images/tpu_block.jpg, id=38, 531.9875pt x 401.5pt>
+[9 <./images/MXU.png>]
+<images/tpu_block.jpg, id=50, 531.9875pt x 401.5pt>
 File: images/tpu_block.jpg Graphic file (type jpg)
 <use images/tpu_block.jpg>
-Package pdftex.def Info: images/tpu_block.jpg  used on input line 250.
+Package pdftex.def Info: images/tpu_block.jpg  used on input line 253.
 (pdftex.def)             Requested size: 360.0pt x 271.70534pt.
-[7] [8]
+ [10 <./images/quantization.png>]
 
-LaTeX Warning: Citation 'tpu_video' on page 9 undefined on input line 263.
+LaTeX Warning: Citation 'tpu_video' on page 11 undefined on input line 266.
 
-[9] [10]
+[11 <./images/tpu_block.jpg>] [12]
 
-LaTeX Warning: Citation 'benchmark' on page 11 undefined on input line 289.
+LaTeX Warning: Citation 'benchmark' on page 13 undefined on input line 293.
 
 
-LaTeX Warning: Citation 'image-net' on page 11 undefined on input line 289.
+LaTeX Warning: Citation 'image-net' on page 13 undefined on input line 293.
 
-[11] [12]
+[13] [14]
 
-LaTeX Warning: Empty bibliography on input line 312.
+LaTeX Warning: Empty bibliography on input line 316.
 
-[13] [14] [15] [16 <./images/tpu_transistor_fordeling.jpg>] [17 <./images/MXU.p
-ng> <./images/quantization.png>] [18 <./images/tpu_block.jpg>]
-(./rapport0.6.aux)
+(./rapport0.8.aux)
 
 LaTeX Warning: There were undefined references.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                rapport0.6
+(biblatex)                rapport0.8
 (biblatex)                and rerun LaTeX afterwards.
 
-Package logreq Info: Writing requests to 'rapport0.6.run.xml'.
-\openout1 = `rapport0.6.run.xml'.
+Package logreq Info: Writing requests to 'rapport0.8.run.xml'.
+\openout1 = `rapport0.8.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13410 strings out of 492982
- 210058 string characters out of 6138579
- 602253 words of memory out of 5000000
- 16773 multiletter control sequences out of 15000+600000
- 69223 words of font info for 76 fonts, out of 8000000 for 9000
+ 14440 strings out of 492982
+ 228559 string characters out of 6138579
+ 613129 words of memory out of 5000000
+ 17803 multiletter control sequences out of 15000+600000
+ 71674 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,14n,32p,823b,1076s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
-exmf-dist/fonts/enc/dvips/stix/stix-t1.enc}</usr/share/texmf-dist/fonts/type1/p
-ublic/stix/STIXGeneral-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/stix/
-STIXGeneral-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/stix/STIXGener
-al-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-</usr/share/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb></usr/share/texm
-f-dist/fonts/type1/public/stix/stix-mathit.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/stix/stix-mathrm.pfb>
-Output written on rapport0.6.pdf (20 pages, 546995 bytes).
+ 36i,14n,39p,830b,1076s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}</usr/share/texmf-dis
+t/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/stix/STIXGeneral-Italic.pfb></usr/share/texmf-dist/fonts/type1/public
+/stix/STIXGeneral-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/stix/st
+ix-mathex.pfb></usr/share/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></
+usr/share/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
+Output written on rapport0.8.pdf (15 pages, 599020 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

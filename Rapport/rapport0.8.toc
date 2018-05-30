@@ -4,22 +4,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Nevralt nettverk}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}TPU}{6}
+\contentsline {section}{\numberline {3}TPU}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Unike trekk}{6}
+\contentsline {subsection}{\numberline {3.1}Unike trekk}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Nyere Versjoner}{9}
+\contentsline {subsection}{\numberline {3.2}Nyere Versjoner}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Annen Hardware}{10}
+\contentsline {section}{\numberline {4}Annen Hardware}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}CPU}{10}
+\contentsline {subsection}{\numberline {4.1}CPU}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}GPU}{10}
+\contentsline {subsection}{\numberline {4.2}GPU}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Benchmarks}{11}
+\contentsline {section}{\numberline {5}Benchmarks}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Treningstid}{11}
+\contentsline {subsection}{\numberline {5.1}Treningstid}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Treneingskostnad}{11}
+\contentsline {subsection}{\numberline {5.2}Treneingskostnad}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Konklusjon}{12}
+\contentsline {section}{\numberline {6}Konklusjon}{14}
